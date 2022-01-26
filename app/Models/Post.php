@@ -8,4 +8,18 @@ use Illuminate\Database\Eloquent\Model;
 class Post extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'title', 'content', 'author_id', 'slug', 'published'
+    ];
+
+    protected $casts = [
+        'published' => 'boolean'
+    ];
+
+
+    public function author()
+    {
+        return $this->hasOne(User::class, "id", "author_id");
+    }
 }
