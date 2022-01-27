@@ -45,3 +45,7 @@ Visualizando as postagens
 Apagando e editando posts pelo painel
 ![App Screenshot](https://i.imgur.com/hZowvUB.gif)
 
+## Alguns links que eu usei
+[Tema exemplo do Bootstrap](https://getbootstrap.com/docs/4.0/examples/blog/)
+[Login do painel](https://getbootstrap.com/docs/4.0/examples/sign-in/)
+[Dashboard](https://getbootstrap.com/docs/5.1/examples/dashboard/)
